@@ -1,0 +1,38 @@
+section.resume {
+	margin-top: 20px;
+}
+
+/*
+.divider {
+	text-align: center;
+
+}
+*/
+
+.item {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+}
+
+
+.item a{
+	color: #009380;
+	text-decoration: underline;
+}
+
+.item .location {
+	position: absolute;
+	top: 0;
+	right: 45%;
+}
+
+.item .year {
+	position: absolute;
+	top: 0;
+	right: 0;
+	vertical-align: middle;
+}
+
+
