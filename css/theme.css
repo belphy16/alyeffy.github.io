@@ -1,14 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:200);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400);
 
 * {
 	margin: 0px;
 	padding: 0px;
 }
 
+section.header
+
 body, html {
 	font-family: sans-serif;
 	font: 100%/1.5 'Raleway';
-	font-weight: 300;
+	font-weight: 200;
 	text-rendering: optimizeLegibility;
 	color: #231f20;
 	width: auto;
@@ -19,11 +21,13 @@ img {
 	height: auto;
 }
 
-
-a:hover {
-	font-family: sans-serif;
-	text-decoration: none;
-	color: #009380;
+div.divider {
+	width: auto;
+	height: 0;
+	border-top: 2px;
+	border-style: dashed;
+	color: #231f20;
+	font-size: 0;
 }
 
 
@@ -32,15 +36,28 @@ a:hover {
  * ----------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 200 Raleway, sans-serif;
+	font-family: sans-serif;
+	font: 100%/1.5 'Raleway';
+	font-weight: 400;
 	color: #231f20;
+
 }
 
 a {
-	color: #231f20;
+	font-family: sans-serif;
+	font: 100%/1.5 'Raleway';
+	font-weight: 400;
+	color: #009380;
 }
+
+a:hover {
+	text-decoration: none;
+}
+
 
 p {
 	font-family: sans-serif;
+	font: 100%/1.5 'Raleway';
+	font-weight: 200;
 	color: #231f20;
 }
