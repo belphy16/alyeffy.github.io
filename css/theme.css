@@ -5,7 +5,13 @@
 	padding: 0px;
 }
 
-section.header
+section.header {
+	text-align: center;
+}
+
+section.contact {
+	text-align: center;
+}
 
 body, html {
 	font-family: sans-serif;
@@ -14,6 +20,7 @@ body, html {
 	text-rendering: optimizeLegibility;
 	color: #231f20;
 	width: auto;
+	height: auto;
 }
 
 img {
@@ -60,4 +67,5 @@ p {
 	font: 100%/1.5 'Raleway';
 	font-weight: 200;
 	color: #231f20;
+	text-align: justify;
 }
