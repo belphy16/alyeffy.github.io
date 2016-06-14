@@ -1,2 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200);
 
-font-family: 'Raleway', sans-serif;
+body {
+	font: 200 'Raleway' sans-serif;
+	color: #231f20;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #231f20;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #009380;
+}
+
+
+/* -----------------------------------
+ * Typography
+ * ----------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font: 200 Raleway, sans-serif;
+	color: #231f20;
+}
