@@ -1,8 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:200);
 
-body {
-	font: 200 'Raleway' sans-serif;
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	font-family: sans-serif;
+	font: 100%/1.5 'Raleway';
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
 	color: #231f20;
+	width: auto;
 }
 
 img {
@@ -10,11 +19,9 @@ img {
 	height: auto;
 }
 
-a {
-	color: #231f20;
-}
 
 a:hover {
+	font-family: sans-serif;
 	text-decoration: none;
 	color: #009380;
 }
@@ -26,5 +33,14 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	font: 200 Raleway, sans-serif;
+	color: #231f20;
+}
+
+a {
+	color: #231f20;
+}
+
+p {
+	font-family: sans-serif;
 	color: #231f20;
 }
