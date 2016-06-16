@@ -2,7 +2,6 @@
 
 * {
 	margin: 20px;
-	padding: 20px;
 }
 
 section.header {
@@ -39,13 +38,9 @@ hr.divider {
  * Typography
  * ----------------------------------- */
 
-/*
 h1, h2, h3, h4, h5, h6 {
 	font-family: sans-serif;
-	font: 100% 'Raleway';
-	font-weight: 400;
-	color: #231f20;
-
+	font: 'Raleway';
 }
 */
 
