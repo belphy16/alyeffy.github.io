@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400);
 
+/FIX MARGINS AND PADDING AND FONT SIZES AND CONTAINERS, ADD COLOURS AND BANNERS
+
 * {
-	margin: 10px;
-	padding: 10px;
+	margin: 20px;
+	padding: 20px;
 }
 
 section.header {
@@ -15,7 +17,7 @@ section.contact {
 
 body, html {
 	font-family: sans-serif;
-	font: 100%/1.5 'Raleway';
+	font: 100% 'Raleway';
 	font-weight: 200;
 	text-rendering: optimizeLegibility;
 	color: #231f20;
@@ -39,7 +41,7 @@ hr.divider {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: sans-serif;
-	font: 100%/1.5 'Raleway';
+	font: 100% 'Raleway';
 	font-weight: 400;
 	color: #231f20;
 
@@ -47,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	font-family: sans-serif;
-	font: 100%/1.5 'Raleway';
+	font: 100% 'Raleway';
 	font-weight: 400;
 	color: #009380;
 }
@@ -59,7 +61,7 @@ a:hover {
 
 p {
 	font-family: sans-serif;
-	font: 100%/1.5 'Raleway';
+	font: 100% 'Raleway';
 	font-weight: 200;
 	color: #231f20;
 	text-align: justify;
