@@ -89,15 +89,8 @@ footer {
 .contact .links {
 	margin: 20px;
 	display: inline;
+
 }
 
-li.email {
-	background: url(img/mail-icon-teal.png);
-	background-repeat: no-repeat;
-	background-position: 0px 50%;
-	width: 50px;
-	height: 50px;
-	padding-left: 10px;
-	display: inline;
-}
+
 
