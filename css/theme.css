@@ -83,10 +83,13 @@ section.about {
 footer {
 	margin: 50px;
 	font-size: 1.5rem;
+}
+
+.contact {
 	text-align: center;
 }
 
-.contact .links {
+.links {
 	margin: 20px;
 	display: inline;
 
