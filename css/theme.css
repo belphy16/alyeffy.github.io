@@ -82,12 +82,18 @@ ul {
 /* SECTIONS */
 
 section.about {
-	margin: 50px;
+	margin: 250px;
+	padding: 250px;
 }
 
 footer {
-	margin: 50px;
+	margin: 250px;
+	padding: 250px;
 	font-size: 1.5rem;
+}
+
+.contact .links {
+	display: inline;
 }
 
 

@@ -20,7 +20,18 @@ section.resume {
 	width: 100%;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.5rem;
+}
+
+.item .name {
 	text-align: left;
+}
+
+.item .location {
+	text-align: center;
+}
+
+.item .year {
+	text-align: right;
 }
 
 
