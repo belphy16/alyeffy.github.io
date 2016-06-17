@@ -1,60 +1,91 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
+
+/* Basic Settings */
 
 * {
 	margin: 20px;
 }
 
-section.header {
-	font-family: sans-serif;
-	font: 'Raleway';
-	text-align: center;
-}
-
-section.contact {
-	font-family: sans-serif;
-	font: 'Raleway';
-	text-align: center;
-}
-
-.links {
-	display: inline-block;
-}
-
-body, html {
-	font-family: sans-serif;
-	font: 'Raleway';
+html, body {
+	width: 100%;
+	height: 100%;
 	text-rendering: optimizeLegibility;
-	width: auto;
-	height: auto;
+	text-align: center;
 }
+
+html {
+	font-size: 80%
+}
+
+body {
+	font-family: 'Montserrat', 'Raleway', Helvetica, sans-serif;
+}
+
+
+
+/* Custom Borders, Dividers etc. */
 
 hr.divider {
 	background-color: #fff;
 	border-top: 2px dashed #8c8b8b;
 }
 
-/* -----------------------------------
- * Typography
- * ----------------------------------- */
+
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font: 'Montserrat';
+	font-weight: 700;
+	color: #231f20;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 100%;
+}
 
 a {
-	font-family: sans-serif;
-	font: 'Raleway';
+	font: Helvetica;
 	font-weight: 400;
 	color: #009380;
 }
 
 a:hover {
-	font-family: sans-serif;
-	font: 'Raleway';
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 
 p {
-	font-family: sans-serif;
 	font: 'Raleway';
 	font-weight: 200;
 	color: #231f20;
 	text-align: justify;
 }
+
+
+
+/* SECTIONS */
+
+section.header {
+	background-color: #FFFFFF;
+}
+
+section.contact {
+	background-color: #FFFFFF;
+}
+
+.contact .links {
+	display: inline-block;
+}
+
+
+
