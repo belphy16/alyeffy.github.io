@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400);
 
 section.resume {
-	margin: 20px;
+	margin: 50px;
 	text-align: center;
 	font: 'Raleway';
 	font-weight: 200;
@@ -10,7 +10,7 @@ section.resume {
 .details {
 	font: 'Raleway';
 	font-weight: 200;
-	font-size: 0.8rem;
+	font-size: 100%;
 	text-align: justify;
 }
 
@@ -18,21 +18,7 @@ section.resume {
 	width: 100%;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.5rem;
-	display: inline;
-	position: relative;
 	text-align: left;
-}
-
-.item .name {
-	text-align: left;
-}
-
-.item .location {
-	text-align: center;
-}
-
-.item .year {
-	text-align: right;
 }
 
 
