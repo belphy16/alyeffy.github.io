@@ -17,9 +17,7 @@ section.contact {
 }
 
 .links {
-	font-family: sans-serif;
-	font: 'Raleway';
-	text-align: center;
+	display: inline-block;
 }
 
 body, html {
@@ -27,11 +25,6 @@ body, html {
 	font: 'Raleway';
 	text-rendering: optimizeLegibility;
 	width: auto;
-	height: auto;
-}
-
-img {
-	max-width: 100%;
 	height: auto;
 }
 
@@ -44,18 +37,6 @@ hr.divider {
  * Typography
  * ----------------------------------- */
 
-h1, h2, h3 {
-	font-family: sans-serif;
-	font: 'Raleway';
-}
-
-h4, h5, h6 {
-	font-family: sans-serif;
-	font: 'Raleway';
-	text-align: left;
-}
-
-
 a {
 	font-family: sans-serif;
 	font: 'Raleway';
@@ -64,6 +45,8 @@ a {
 }
 
 a:hover {
+	font-family: sans-serif;
+	font: 'Raleway';
 	text-decoration: none;
 }
 

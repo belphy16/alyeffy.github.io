@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400);
+
 section.resume {
 	margin: 20px;
 	text-align: center;
@@ -6,19 +8,11 @@ section.resume {
 	text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3 {
-	font-family: sans-serif;
-	font: 'Raleway';
-}
-
-h4, h5, h6 {
-	font-family: sans-serif;
-	font: 'Raleway';
-	text-align: left;
-}
-
 .item {
 	width: 100%;
+	font-family: sans-serif;
+	font: 'Raleway';
+	font-size: 12;
 	display: inline-block;
 	position: relative;
 	text-align: left;
