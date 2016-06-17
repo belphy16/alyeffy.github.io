@@ -24,11 +24,6 @@ hr.divider {
 	border-top: 2px dashed #8c8b8b;
 }
 
-img {
-	margin: 10px;
-}
-
-
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,15 +76,18 @@ ul {
 /* SECTIONS */
 
 section.about {
-	margin: 250px;
+	margin: 100px;
+	padding: 150px;
 }
 
 footer {
-	margin: 250px;
+	margin: 100px;
+	padding: 150px;
 	font-size: 1.5rem;
 }
 
 .contact .links {
+	margin: 15px;
 	display: inline;
 }
 
