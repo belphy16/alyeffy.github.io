@@ -19,15 +19,14 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-
-
-/* Custom Borders, Dividers etc. */
-
 hr.divider {
 	background-color: #fff;
 	border-top: 2px dashed #8c8b8b;
 }
 
+img {
+	margin: 10px;
+}
 
 
 /* Typography */
@@ -83,12 +82,10 @@ ul {
 
 section.about {
 	margin: 250px;
-	padding: 250px;
 }
 
 footer {
 	margin: 250px;
-	padding: 250px;
 	font-size: 1.5rem;
 }
 
