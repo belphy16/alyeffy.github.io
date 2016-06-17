@@ -10,14 +10,15 @@ section.resume {
 .details {
 	font: 'Raleway';
 	font-weight: 200;
+	font-size: 0.8rem;
 	text-align: justify;
 }
 
 .item {
 	width: 100%;
 	font-family: Helvetica, sans-serif;
-	font-size: 100%;
-	display: inline-block;
+	font-size: 1.5rem;
+	display: inline;
 	position: relative;
 	text-align: left;
 }

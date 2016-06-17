@@ -3,10 +3,6 @@
 
 /* Basic Settings */
 
-* {
-	margin: 20px;
-}
-
 html, body {
 	width: 100%;
 	height: 100%;
@@ -19,7 +15,7 @@ html {
 }
 
 body {
-	font-family: 'Montserrat', 'Raleway', Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -46,7 +42,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 h3 {
@@ -55,6 +51,7 @@ h3 {
 
 a {
 	font: Helvetica;
+	font-size: 0.8rem;
 	font-weight: 400;
 	color: #009380;
 }
@@ -67,24 +64,36 @@ a:hover {
 p {
 	font: 'Raleway';
 	font-weight: 200;
+	font-size: 0.8rem;
 	color: #231f20;
 	text-align: justify;
+}
+
+ul {
+	text-align: center;
+	display: inline;
 }
 
 
 
 /* SECTIONS */
 
-section.header {
+section.about {
+	margin: 20px;
+}
+
+.me {
 	background-color: #FFFFFF;
 }
 
-section.contact {
+footer {
+	margin: 20px;
 	background-color: #FFFFFF;
+	font-size: 1.5rem;
 }
 
 .contact .links {
-	display: inline-block;
+	display: inline;
 }
 
 
