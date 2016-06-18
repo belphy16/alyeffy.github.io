@@ -72,14 +72,6 @@ ul {
 	list-style-position: inside;
 }
 
-li.mail {
-	padding-left: 10px;
-	background-image: url('img/mail-icon-teal.png');
-	background-repeat: no-repeat;
-	background-size: 50 px 50 px;
-	background-position: 0 .5em;
-}
-
 /* SECTIONS */
 
 section.about {
